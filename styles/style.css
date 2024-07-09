@@ -18,6 +18,8 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  margin-top: 36px;
+  margin-bottom: 150px;
 }
 .banner-content {
   width: 998px;
@@ -60,3 +62,86 @@ body {
   padding: 21px 24px 21px 24px;
   text-decoration: none;
 }
+/* banner styles end from here */
+/* why web development start from here*/
+.why-web-development {
+  width: 946px;
+  height: 1233px;
+  margin: 0 auto;
+}
+.development-container {
+  width: 852px;
+  height: 113px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.development-container h2 {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  margin-bottom: 24px;
+}
+.development-container p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+}
+.coding-change-container {
+  width: 850px;
+  height: 240px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 96px;
+}
+.coding-content {
+  width: 477px;
+  height: 219px;
+  /* border: 1px solid red; */
+}
+.coding-content h4 {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 16px;
+}
+.coding-content p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.coding-content button {
+  color:rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 12px 20px 12px 20px;
+  background-color: white;
+  border: 1px solid rgb(13, 19, 33);
+  margin-top: 32px;
+}
+.coding-img {
+  width: 259.56px;
+  height: 217.01px;
+}
+.coding-img img {
+  width: 259.56px;
+  height: 217.01px;
+}
+/* why web development end from here*/
