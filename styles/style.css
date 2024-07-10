@@ -36,6 +36,38 @@ body {
 }
 /* shared styles end form here */
 
+/* nav styles start from here */
+nav {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(255, 255, 255);
+}
+nav h2 {
+  width: 114px;
+  height: 34px;
+  color: rgb(13, 19, 33);
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 33px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+nav button {
+  width: 228px;
+  height: 58px;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 35px 0;
+}
+/* nav styles end from here */
+
 /* banner styles start from here */
 .banner-container {
   max-width: 1440px;
@@ -45,7 +77,6 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin-top: 36px;
   margin-bottom: 150px;
 }
 .banner-content {
@@ -347,6 +378,7 @@ body {
   align-items: center;
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.03);
+  padding: 32px 0;
 }
 .footer-icon-container h2 {
   color: rgb(13, 19, 33);
